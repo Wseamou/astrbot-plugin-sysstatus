@@ -22,7 +22,7 @@ YELLOW = "#d97706"
 RED = "#dc2626"
 
 
-@register("astrbot_plugin_sysstatus", "assistant", "服务器状态可视化", "1.0.0")
+@register("astrbot_plugin_sysstatus", "moupeter", "服务器状态可视化", "1.0.0")
 class SysStatusPlugin(Star):
     def __init__(self, context: Context, config=None):
         super().__init__(context)
