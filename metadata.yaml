@@ -1,0 +1,7 @@
+name: astrbot_plugin_sysstatus
+display_name: 服务器状态可视化
+desc: 让机器人发送服务器内存/磁盘扇形图和网络情况可视化图表
+version: 1.0.0
+author: assistant
+repo: ""
+astrbot_version: ">=4.0.0"

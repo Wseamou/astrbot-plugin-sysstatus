@@ -1,0 +1,14 @@
+{
+  "panel_url": {
+    "description": "管理面板地址",
+    "type": "string",
+    "default": "http://host.docker.internal:80",
+    "hint": "容器内访问宿主机 80 端口的地址，一般无需修改。"
+  },
+  "token_file": {
+    "description": "hoststats 令牌文件",
+    "type": "string",
+    "default": "/app/hoststats_token",
+    "hint": "只读挂载到容器内的共享令牌文件路径。"
+  }
+}
